@@ -1,1 +1,2 @@
 # odin-recipes
+This project is about creating a website that shows any recipe that we pick. I choose to use actual recipes that I have made before and personally enjoy. The skills that are demonstrated with this project is the basic's of html. Setting up the standard HTML format and then adding things like paragraphs, images, links.
