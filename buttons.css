@@ -1,0 +1,93 @@
+/*makes a button for the home page link on three recipe pages*/
+.home-button
+{
+  height:50px;
+  width:150px;
+  background-color: rgba(128, 128, 128, 0.788);
+  border: solid;
+}
+
+.home-button:hover
+{
+  opacity: 0.7;
+  background-color: rgba(255, 72, 0, 0.699);
+}
+/*next three are buttons for the links on the main page that have been size and while change opacity 
+and background color when hovered over or active. Also added a box shawdow*/
+.cali-button
+{
+  background-color: rgba(15, 77, 212, 0.822);
+  color: black;
+  height: 75px;
+  width: 250px;
+  cursor: pointer;
+  border:solid;
+  border-color: black;
+  border-radius: 100px;
+  transition: opactiy 2s;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.479);
+}
+
+.cali-button:hover
+{
+  opacity: 0.6;
+  background-color: aquamarine;
+}
+
+.cali-button:active
+{
+  opacity: 0.5;
+}
+
+.oat-button
+{
+  background-color: aqua;
+  color: black;
+  height: 75px;
+  width: 250px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border:solid;
+  border-color: black;
+  border-radius:100px;
+  transition: opactiy 1s;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.479);
+}
+
+.oat-button:hover
+{
+  opacity: 0.7;
+  background-color: rgb(243, 194, 102);
+}
+
+.oat-button:active
+{
+  opacity: 0.5;
+}
+
+.ham-button
+{ 
+  background-color: rgba(137, 43, 226, 0.582);
+  color: black;
+  height: 75px;
+  width: 250px;
+  cursor: pointer;
+  border:solid;
+  border-color: black;
+  border-radius:100px;
+  transition: opactiy 1s;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.479);
+}
+
+.ham-button:hover
+{
+  opacity: 0.7;
+  background-color: rgb(81, 240, 42);
+}
+
+.ham-button:active
+{
+  opacity: 0.5;
+}
+
+
