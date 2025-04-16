@@ -7,12 +7,15 @@
   letter-spacing: -1px;
 }
 
+
 .role,.Ham,.Oat
 {
-  height: 400px;
+
+height: 400px;
 width:600px;
-margin-left: 300px;
+margin-left: 400px;
 }
+
 .cali-button
 {
   background-color: rgba(196, 15, 212, 0.534);
