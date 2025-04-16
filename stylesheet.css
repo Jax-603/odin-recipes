@@ -7,99 +7,23 @@
   letter-spacing: -1px;
 }
 
-
-.role,.Ham,.Oat
+/*img-flex is used to center my images on my three html pages */
+.img-flex
 {
-
-height: 400px;
-width:600px;
-margin-left: 400px;
+ display: flex;
 }
 
-.cali-button
+.img-flex 
 {
-  background-color: rgba(196, 15, 212, 0.534);
-  color: black;
-  height: 75px;
-  width: 250px;
-  cursor: pointer;
-  position: absolute;
-  border:solid;
-  border-color: black;
-  border-radius: 100px;
-  transition: opactiy 1s;
-  margin-left: 20PX;
+  justify-content: center;
+  width:auto;
+  height:400px;
 }
-
-.cali-button:hover
+/*resizing picture on main pages*/
+.recipe-images
 {
-  opacity: 0.7;
-  background-color: aquamarine;
-}
-
-.cali-button:active
-{
-  opacity: 0.5;
-}
-
-.oat-button
-{
-  background-color: aqua;
-  color: black;
-  height: 75px;
-  width: 250px;
-  cursor: pointer;
-  position: absolute;
-  margin-bottom: 200px;
-  margin-left:500px;
-  padding-bottom: 10px;
-  border:solid;
-  border-color: black;
-  border-radius:100px;
-  transition: opactiy 1s;
-}
-
-.oat-button:hover
-{
-  opacity: 0.7;
-  background-color: rgb(243, 194, 102);
-}
-
-.oat-button:active
-{
-  opacity: 0.5;
-}
-
-.ham-button
-{ 
-  display: inline-block;
-  background-color: rgba(137, 43, 226, 0.582);
-  color: black;
-  height: 75px;
-  width: 250px;
-  cursor: pointer;
-  margin-left:1000px;
-  margin-right: 250px;
-  border:solid;
-  border-color: black;
-  border-radius:100px;
-  transition: opactiy 1s;
-}
-
-.ham-button:hover
-{
-  opacity: 0.7;
-  background-color: rgb(81, 240, 42);
-}
-
-.ham-button:active
-{
-  opacity: 0.5;
-}
-
-.cali-button, .ham-button, .oat-button
-{
-  display: inline-block;
+  height:400px;
+  width:600px;
 }
 
 .Descrip
@@ -108,20 +32,20 @@ margin-left: 400px;
   font-weight: 100;
   font-size: 25px;
   text-align: center;
-  line-height: 20px;
+  line-height: 25px;
 
 }
 
+/*centers ingredients list and dots from ul list and changes font*/
 .Ingredients
 {
-display: block;
 text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 list-style-position: inside;
 padding-right:50px;
 }
-
+/*center instructions and changes the line height and font*/
 .Instructions
 {
   text-align: center;
@@ -131,7 +55,7 @@ padding-right:50px;
   list-style-position: inside;
   line-height: 35px;
 }
-
+/*used to underline descriptions, ingridents, instructions and nurtrition labels*/
 p.para
 {
   text-align: center;
@@ -150,7 +74,7 @@ p.para
   font-size: 25px;
   text-align: center;
 }
-
+/*changes body color on seperate pages*/
 #body-1
 {
   background-color: beige;
@@ -170,52 +94,55 @@ background-color: rgb(243, 194, 102);
 {
 background-color: rgba(0, 255, 0, 0.521) ;
 }
-
+/*change ul list from circle to squares*/
 .u-list
 {
   list-style-type: square;
 }
-
+/*changes ol from numbers to roman numerals*/
 .o-list
 {
   list-style-type: upper-roman;
 }
 
-.cass
+/*resizes pictures on main page inside flex box*/
+.Recipe-Preview
 {
-display:inline-block;
 Height: 250px;
 Width:300px;
 border-radius:150px;
-padding-top: 10px;
 }
-.Muff
+/*spaces all the images evenly*/
+.flex
 {
-display:inline-block;
-Height: 250px;
-Width:300px;
-border-radius:150px;
-Margin-left: 175px;
-}
-.Helper
-{
-display:inline-block;
-Height: 250px;
-Width:300px;
-border-radius:150px;
-margin-left:155px;
+  display: flex;
 }
 
-.home-button
+.flex
 {
-  height:50px;
-  width:150px;
-  background-color: rgba(128, 128, 128, 0.788);
-  border: solid;
+  height:300px;
+  width:auto;
+  justify-content: space-around;
+  padding-top: 10px;
 }
 
-.home-button:hover
+/*spaces all link buttons evenly*/
+.flex-links
 {
-  opacity: 0.7;
-  background-color: rgba(255, 72, 0, 0.699);
+  display: flex;
 }
+
+.flex-links
+{
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
