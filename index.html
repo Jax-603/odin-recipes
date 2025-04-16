@@ -4,34 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="buttons.css">
 
 <title>Home Page</title>
 
 </head>
-
+<!-- identifer used to select body color-->
 <body id="body-1">
 <h1 class="Title"> Odin recipes</h1>
 
-<a href="recipes/Califlower-Casserole.html">
-<button class="cali-button">Califlower-Casserole</button>
-</a>
+<!-- flexbox used to contain and center all links-->
+<div class="flex-links">
 
-<button class="oat-button">
-<a href="recipes/Oatmeal-Muffins.html"><button class="oat-button">Oatmeal Muffins</button>
-</a>
+<div>
+<a href="recipes/Califlower-Casserole.html"><button class="cali-button">Califlower-Casserole</button></a>
+</div>
 
-<a href="recipes/Hamburger-Helper.html">
-<button class="ham-button">Healthy Hamburger Helper</button>
-</a>
+<div>
+<a href="recipes/Oatmeal-Muffins.html"><button class="oat-button">Oatmeal Muffins</button></a>
+</div>
 
-<img class="cass"
-src=recipes/casserole.webp>
+<div>
+<a href="recipes/Hamburger-Helper.html"><button class="ham-button">Healthy Hamburger Helper</button></a>
+</div>
 
-<img class="Muff"
-src="recipes/Oat-Muffins.webp">
+</div>
 
-<img class="Helper"
-src="recipes/Hamburg-Helper.jpg">
+<!-- flexbox used to contain and center all images-->
+<div class="flex">
+
+<div><img class="Recipe-Preview" src=recipes/casserole.webp></div>
+
+<div><img class="Recipe-Preview" src="recipes/Oat-Muffins.webp"></div>
+
+<div><img class="Recipe-Preview" src="recipes/Hamburg-Helper.jpg"></div>
+
+</div>
 
 </body>
 </html>
