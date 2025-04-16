@@ -46,7 +46,6 @@ and background color when hovered over or active. Also added a box shawdow*/
   height: 75px;
   width: 250px;
   cursor: pointer;
-  padding-bottom: 10px;
   border:solid;
   border-color: black;
   border-radius:100px;
